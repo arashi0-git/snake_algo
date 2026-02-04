@@ -6,6 +6,12 @@
 
 このプロジェクトは、シンプルなスネークゲームの環境をPythonで構築し、Q-Learningエージェントが「視界（Vision）」のみを頼りにリンゴを追いかけ、壁や自分自身を避けるように学習します。
 
+## デモ
+
+学習済みAIの動作
+
+https://github.com/user-attachments/assets/16c752ce-ae21-4959-bfe3-80d151988e8c
+
 ### ステート（状態）表現
 
 ルールに基づき、エージェントは以下の情報のみを取得して判断を下します：
@@ -50,12 +56,6 @@ python main.py --no-train --load models/snake_model.json --visual --episodes 5
 | **SPACE** | ゲームの一時停止 / 再開 |
 | **S** | 1ステップ進む（一時停止中のみ） |
 | **UP / DOWN** | 実行スピード（FPS）の調整 |
-
-## デモ
-
-学習済みAIの動作の様子です：
-
-<video src="docs/demo.mov" controls title="Snake AI Demo" style="max-width: 100%"></video>
 
 ## プロジェクト構成
 
