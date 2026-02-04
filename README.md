@@ -55,7 +55,7 @@ python main.py --no-train --load models/snake_model.json --visual --episodes 5
 
 学習済みAIの動作の様子です：
 
-![Snake AI Demo](docs/demo.mov)
+<video src="docs/demo.mov" width="600" controls></video>
 
 ## プロジェクト構成
 
